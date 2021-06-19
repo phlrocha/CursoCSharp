@@ -8,6 +8,8 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excecoes;
+using CursoCSharp.API;
+using CursoCSharp.TopicosAvancados;
 
 
 
@@ -96,6 +98,24 @@ namespace CursoCSharp {
                 // Exceçoes
                 {"Primeira Exceção - Exceções ",PrimeiraExcecao.Executar },
                 {"ExcecoesPersonalizadas - Exceções ",ExcecoesPersonalizadas.Executar },
+                
+                //API
+                {"Primeiro Arquivo - Usando API ",PrimeiroArquivo.Executar },
+                {"Lendo Arquivos - Usando API ",LendoArquivos.Executar },
+                {"Exemplo File Info - Usando API ",ExemploFileInfo.Executar },
+                {"Diretorios - Usando API ",Diretorios.Executar },
+                {"Exemplo DirectoryInfo - Usando API ",ExemploDirectoryInfo.Executar },
+                {"Exemplo Path - Usando API ",ExemploPath.Executar },
+                {"Exemplo Datetime - Usando API ",ExemploDateTime.Executar },
+                {"Exemplo TimeSpan - Usando API ",ExemploTimeSpan.Executar },
+                
+                
+                //Topicos Avançados
+                {"LINQ #01  - Tópicos Avançados",LINQ1.Executar },
+                {"LINQ #02  - Tópicos Avançados",LINQ2.Executar },
+                {"Nullables  - Tópicos Avançados",Nullables.Executar },
+                {"Dynamics  - Tópicos Avançados",Dynamics.Executar },
+                {"Genericos  - Tópicos Avançados",Genericos.Executar },
             });
 
             central.SelecionarEExecutar();
